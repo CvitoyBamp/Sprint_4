@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ru.yandex.praktikum.AccountTest" time="0.796" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ru.yandex.praktikum.AccountTest" time="0.915" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="RU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="D:\Program Files\java\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\kalin\AppData\Local\Temp\surefire5038524447781975998\surefirebooter4516138061516997.jar C:\Users\kalin\AppData\Local\Temp\surefire5038524447781975998 2022-06-19T11-45-14_774-jvmRun1 surefire2111910725375500617tmp surefire_038345114342817926tmp"/>
+    <property name="sun.java.command" value="C:\Users\kalin\AppData\Local\Temp\surefire7606204826224036373\surefirebooter66708729951362751.jar C:\Users\kalin\AppData\Local\Temp\surefire7606204826224036373 2022-06-19T12-55-35_834-jvmRun1 surefire9153871843122688875tmp surefire_06097260085263593077tmp"/>
     <property name="surefire.test.class.path" value="D:\java\lastSprint\target\test-classes;D:\java\lastSprint\target\classes;C:\Users\kalin\.m2\repository\io\qameta\allure\allure-rest-assured\2.15.0\allure-rest-assured-2.15.0.jar;C:\Users\kalin\.m2\repository\io\qameta\allure\allure-attachments\2.15.0\allure-attachments-2.15.0.jar;C:\Users\kalin\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\kalin\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\kalin\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\kalin\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\kalin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\kalin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\kalin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\kalin\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\kalin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\kalin\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\kalin\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\kalin\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\kalin\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\kalin\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\kalin\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\kalin\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\kalin\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\kalin\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\kalin\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\kalin\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\kalin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\kalin\.m2\repository\io\qameta\allure\allure-junit4\2.17.3\allure-junit4-2.17.3.jar;C:\Users\kalin\.m2\repository\io\qameta\allure\allure-java-commons\2.17.3\allure-java-commons-2.17.3.jar;C:\Users\kalin\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\kalin\.m2\repository\io\qameta\allure\allure-model\2.17.3\allure-model-2.17.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="allure.results.directory" value="D:\java\lastSprint\target/allure-results"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\kalin\AppData\Local\Temp\surefire5038524447781975998\surefirebooter4516138061516997.jar;C:\Users\kalin\.m2\repository/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\kalin\AppData\Local\Temp\surefire7606204826224036373\surefirebooter66708729951362751.jar;C:\Users\kalin\.m2\repository/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.jar"/>
     <property name="sun.boot.class.path" value="D:\Program Files\java\jre\lib\resources.jar;D:\Program Files\java\jre\lib\rt.jar;D:\Program Files\java\jre\lib\sunrsasign.jar;D:\Program Files\java\jre\lib\jsse.jar;D:\Program Files\java\jre\lib\jce.jar;D:\Program Files\java\jre\lib\charsets.jar;D:\Program Files\java\jre\lib\jfr.jar;D:\Program Files\java\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,10 +61,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="toLongNameTest" classname="ru.yandex.praktikum.AccountTest" time="0.501"/>
+  <testcase name="toLongNameTest" classname="ru.yandex.praktikum.AccountTest" time="0.623"/>
   <testcase name="nameEndsWithSpaceTest" classname="ru.yandex.praktikum.AccountTest" time="0"/>
-  <testcase name="nameStartsWithSpaceTest" classname="ru.yandex.praktikum.AccountTest" time="0"/>
-  <testcase name="nameWithoutSpaceTest" classname="ru.yandex.praktikum.AccountTest" time="0.01"/>
-  <testcase name="toShortNameTest" classname="ru.yandex.praktikum.AccountTest" time="0.002"/>
-  <testcase name="correctNameTest" classname="ru.yandex.praktikum.AccountTest" time="0.005"/>
+  <testcase name="nameStartsWithSpaceTest" classname="ru.yandex.praktikum.AccountTest" time="0.016"/>
+  <testcase name="nameWithoutSpaceTest" classname="ru.yandex.praktikum.AccountTest" time="0"/>
+  <testcase name="toShortNameTest" classname="ru.yandex.praktikum.AccountTest" time="0.01"/>
+  <testcase name="correctNameTest" classname="ru.yandex.praktikum.AccountTest" time="0"/>
 </testsuite>
