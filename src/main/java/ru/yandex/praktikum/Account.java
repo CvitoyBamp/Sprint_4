@@ -1,5 +1,7 @@
 package ru.yandex.praktikum;
 
+import io.qameta.allure.Step;
+
 public class Account {
 
     private final String name;
@@ -8,8 +10,13 @@ public class Account {
         this.name = name;
     }
 
+    @Step("Checking a name for embossing")
     public boolean checkNameToEmboss() {
-        return name.length() >= 3 && name.length() <= 19 && checkSpaces(this.name) && !name.startsWith(" ") && !name.endsWith(" ");
+        try{
+            return name.length() >= 3 && name.length() <= 19 && checkSpaces(this.name) && !name.startsWith(" ") && !name.endsWith(" ");
+        } catch (Exception e) {
+            return false;
+        }
     }
 
     public boolean checkSpaces(String name) {
